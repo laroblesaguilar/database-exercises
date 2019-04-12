@@ -7,5 +7,6 @@ name VARCHAR(100),
 release_date INT,
 sales DECIMAL(15,2),
 genre VARCHAR(100),
- PRIMARY KEY (id)
+ PRIMARY KEY (id),
+ unique(artist, name)
 );

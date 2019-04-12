@@ -38,7 +38,7 @@ WHERE gender = 'M'
   or first_name = 'Vidya'
   or first_name = 'Maya');
 
-SELECT concat(first_name, ' ', last_name) AS 'full_name'
+SELECT emp_no, birth_date, concat(first_name, ' ', last_name) AS 'full_name', gender, hire_date
 FROM employees
 where last_name like 'E%'
    OR last_name like '%e';
